@@ -1,0 +1,13 @@
+print("Vui lòng nhập thông tin ")
+ten = input("Nhập họ tên bệnh nhân :")
+ma_benh_nhan = input("Nhập mã bệnh nhân :")
+can_nang = input("Nhập cân nặng bệnh nhân :")
+nhip_tim = input("Nhập nhịp tim bệnh nhân :")
+nhiet_do = input("Nhập nhiệt độ cơ thể (độ C) bệnh nhân :")
+print('----- PHIẾU KHÁM BỆNH -----')
+print("Tên bệnh nhân :",ten)
+print("Mã bệnh nhân :",ma_benh_nhan)
+print("Cân nặng bệnh nhân :",f"{can_nang} kg")
+print("Nhịp tim bệnh nhân :",nhip_tim)
+print("Nhiệt độ cơ thể bệnh nhân :",f"{nhiet_do} độ C")
+      

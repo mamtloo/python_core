@@ -1,0 +1,8 @@
+print("---- NHẬP HỒ SƠ BỆNH ÁN ----")
+ten = input("Họ và tên bệnh nhân ")
+ma_benh_an = input("nhập mã bệnh án ")
+chi_dinh = input ("khoa/phòng khám chỉ định")
+print("---- HỒ SƠ BỆNH ÁN ----")
+print("Họ và tên bệnh nhân : ",ten)
+print("Mã bệnh án : ",ma_benh_an)
+print("Chỉ định của bác sĩ :" ,chi_dinh)
